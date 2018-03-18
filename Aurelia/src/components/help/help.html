@@ -1,0 +1,21 @@
+﻿<template>
+  <div class="collapsible-popout">
+    <p>
+      <md-checkbox md-checked.bind="accordion">use accordion</md-checkbox>
+    </p>
+    <ul md-collapsible="accordion.bind: accordion; popout: true;">
+      <li>
+        <div class="collapsible-header active"><i class="mdi-image-filter-drama material-icons">folder_shared</i>Docs</div>
+        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="mdi-maps-place material-icons">question_answer</i>FAQ</div>
+        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="mdi-maps-place material-icons">supervisor_account</i>Get Help</div>
+        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+      </li>
+    </ul>
+  </div>
+</template>

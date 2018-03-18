@@ -1,0 +1,23 @@
+﻿.notification-wrapper .side-nav {
+  top:unset;
+}
+
+.notification-wrapper .waves-effect .waves-ripple {
+  background: rgba(0,0,0,0.0) !important;
+}
+
+body > #sidenav-overlay {
+  /*opacity: 0 !important;*/
+  z-index: unset;
+}
+
+.notification-badge {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: -20px;
+  color: #ffffff;
+  background-color: #29b6f6;
+  margin: 0 -.8em;
+  border-radius: 50%;
+  padding: 0px 5px;
+}

@@ -1,0 +1,15 @@
+﻿<template bindable="router">
+  <div class="notification-wrapper">
+    <a md-sidenav-collapse="ref.bind: sideNavRight;" md-waves>
+      <i class="material-icons">account_box</i>
+    </a>
+    <md-sidenav view-model.ref="sideNavRight" md-edge="right">
+      <ul>
+        <li md-waves><a>About</a></li>
+        <li md-waves><a>Installation</a></li>
+        <li md-waves><a>Project Status</a></li>
+        <li md-waves><a>Help/Docs</a></li>
+      </ul>
+    </md-sidenav>
+  </div>
+</template>
